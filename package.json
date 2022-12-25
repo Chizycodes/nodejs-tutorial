@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-tut",
+  "version": "1.0.0",
+  "description": "Nodejs Course",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chizycodes/nodejs-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chizycodes/nodejs-tutorial/issues"
+  },
+  "homepage": "https://github.com/Chizycodes/nodejs-tutorial#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
