@@ -20,6 +20,6 @@ exports.login = async (req, res) => {
 		return res.status(400).json({ error: 'Invalid email or password' });
 	}
 
-	const token = jwt.sign({ user }, 'secretKey');
+	const token = jwt.sign({ user }, 'secret-key');
 	res.json({ user, access_token: token });
 };
